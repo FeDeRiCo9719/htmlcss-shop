@@ -27,9 +27,22 @@
 }
 
 .model{
+    display: block;
     width: 100%;
 }
 
+.product:hover .model{
+    display: none;
+}
+
+.model-B{
+    display: none;
+    width: 100%;    
+}
+
+.product:hover .model-B{
+    display: block;
+}
 
 /* SCONTO - COLLECTION */
 .collection{
