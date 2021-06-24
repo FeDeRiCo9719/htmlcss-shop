@@ -13,12 +13,12 @@
 
 .row{
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .product{
     display:inline-block;
-    /* position: relative; */
+    position: relative;
     /* height: 400px; */
     width: calc(100%/3);
     /* background-color: royalblue; */
@@ -28,4 +28,79 @@
 
 .model{
     width: 100%;
+}
+
+
+/* SCONTO - COLLECTION */
+.collection{
+    position: absolute;
+    top: 14px;
+    text-align: center;
+    /* background-color: rgb(255, 255, 255); */
+    right: 70px;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold';
+}
+
+.heart{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 12%;
+    height: 8%;
+    text-align: center;
+    right: 5px;
+    top: 5px;
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+}
+
+.sconto{
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+    background-color: rgb(211, 0, 63);
+    text-align: center;
+    font-family: Arial;
+    color: white;
+    font-size: 12px;
+    margin-left: 11px;
+
+}
+
+.sostenibilità{
+    position: absolute;
+    bottom: 60px;
+    padding: 6px;
+    background-color: rgb(2, 150, 81);
+    text-align: center;
+    font-family: 'Arial Narrow Bold';
+    color: white;
+    font-size: 12px;
+    margin-left: 11px;
+
+}
+
+
+/* PREZZO - MARCA- MODELLO */
+.price{
+    padding-top: 34px;
+    font-size: 15px;
+    position: absolute;
+}
+
+.red-price{
+    color: red;
+    padding-right: 5px;
+
+}
+
+.title{
+    padding-top: 16px;
+    position: absolute;
+    font-size: 15px;
+}
+
+.marca{
+    position: absolute;
+    font-size: 15px;
 }
