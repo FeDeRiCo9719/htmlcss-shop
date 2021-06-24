@@ -5,21 +5,27 @@
 }
 
 .container{
-    background-color: lightgrey;
+    /* padding-top: 50px; */
+    /* background-color: lightgrey; */
     width: 60%;
     margin: auto;
+}
+
+.row{
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .product{
     display:inline-block;
     /* position: relative; */
-    height: 400px;
+    /* height: 400px; */
     width: calc(100%/3);
-    background-color: royalblue;
-    border: 1px solid red;
-    /* padding: 5px; */
+    /* background-color: royalblue; */
+    /* border: 1px solid red; */
+    padding: 5px;
 }
 
-img{
-    width: 50%;
+.model{
+    width: 100%;
 }
