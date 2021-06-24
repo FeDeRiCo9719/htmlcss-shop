@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    background-color: lightgrey;
+    width: 60%;
+    margin: auto;
+}
+
+.product{
+    display:inline-block;
+    /* position: relative; */
+    height: 400px;
+    width: calc(100%/3);
+    background-color: royalblue;
+    border: 1px solid red;
+    /* padding: 5px; */
+}
+
+img{
+    width: 50%;
+}
