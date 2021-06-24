@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* IMPAGINAZIONE */
 .container{
     /* padding-top: 50px; */
     /* background-color: lightgrey; */
@@ -26,15 +26,17 @@
     padding: 5px;
 }
 
-.model{
+/* MODEL - B */
+.model-A{
     display: block;
     width: 100%;
 }
 
-.product:hover .model{
+.product:hover .model-A{
     display: none;
 }
 
+/* MODEL - A */
 .model-B{
     display: none;
     width: 100%;    
@@ -96,7 +98,7 @@
 
 /* PREZZO - MARCA- MODELLO */
 .price{
-    padding-top: 34px;
+    padding-top: 40px;
     font-size: 15px;
     position: absolute;
 }
@@ -108,7 +110,7 @@
 }
 
 .title{
-    padding-top: 16px;
+    padding-top: 20px;
     position: absolute;
     font-size: 15px;
 }
@@ -116,4 +118,5 @@
 .marca{
     position: absolute;
     font-size: 15px;
+    padding-top: 5px;
 }
