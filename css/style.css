@@ -13,7 +13,7 @@
 
 .row{
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .product{
@@ -26,17 +26,18 @@
     padding: 5px;
 }
 
-/* MODEL - B */
+/* MODEL - A */
 .model-A{
     display: block;
     width: 100%;
 }
 
 .product:hover .model-A{
+    transition: cubic-bezier(1, 0, 0, 1);
     display: none;
 }
 
-/* MODEL - A */
+/* MODEL - B */
 .model-B{
     display: none;
     width: 100%;    
@@ -71,7 +72,7 @@
 
 .sconto{
     position: absolute;
-    bottom: 20px;
+    bottom: 78px;
     padding: 10px;
     background-color: rgb(211, 0, 63);
     text-align: center;
@@ -84,7 +85,7 @@
 
 .sostenibilità{
     position: absolute;
-    bottom: 60px;
+    bottom: 120px;
     padding: 6px;
     background-color: rgb(2, 150, 81);
     text-align: center;
@@ -98,9 +99,7 @@
 
 /* PREZZO - MARCA- MODELLO */
 .price{
-    padding-top: 40px;
     font-size: 15px;
-    position: absolute;
 }
 
 .red-price{
@@ -110,13 +109,10 @@
 }
 
 .title{
-    padding-top: 20px;
-    position: absolute;
     font-size: 15px;
 }
 
 .marca{
-    position: absolute;
     font-size: 15px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
